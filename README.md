@@ -4,6 +4,7 @@ Write a 'star_first_last()' function that takes in a single word and replaces th
 Examples:
 
 ```stars_first_last('buffalo') ==> '*uffal*'```
+
 ```stars_first_last('watermelon') ==> '*atermelo*'```
 
 <br></br>
