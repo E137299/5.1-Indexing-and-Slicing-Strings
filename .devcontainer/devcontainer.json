@@ -1,0 +1,14 @@
+{
+  "name": "Classroom Python Environment",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {},
+  "settings": {
+    "github.copilot.enable": { "*": false },
+    "github.copilot.editor.enableAutoCompletions": false,
+    "editor.formatOnSave": true
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-python.vscode-pylance"
+  ]
+}
