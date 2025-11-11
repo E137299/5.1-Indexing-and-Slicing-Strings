@@ -1,12 +1,10 @@
 {
   "name": "Classroom Python Environment",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
-  "settings": {
-    "editor.formatOnSave": true
-  },
+  "features": {},
   "extensions": [
-    "ms-python.python",
-    "ms-python.vscode-pylance"
-  ],
-  "postCreateCommand": "code --uninstall-extension GitHub.copilot || true"
+    "ms-python.python", // Keep extensions like Python support
+    "ms-python.vscode-pylance" 
+    // "GitHub.copilot" <--- REMOVE THIS LINE IF IT EXISTS
+  ]
 }
